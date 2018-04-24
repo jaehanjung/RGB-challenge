@@ -25,11 +25,17 @@ body {
 .rgb-main span{
   font-size: 57px;
 }
+.score{
+  display: block;
+}
 .score-text{
   display: block;
   text-align: center;
   color: white;
   padding-top: 10px;
+}
+.score.show{
+  display: block;
 }
 .color-box-more{
   position: relative;
@@ -69,6 +75,10 @@ body {
   color: white;
   font-weight: bold;
   font-size: 300%;
+}
+.modal-score-p{
+  margin: 0;
+  font-size: 25px;
 }
 .modal.show {
   display: block;

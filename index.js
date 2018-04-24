@@ -33,6 +33,7 @@ Boxes.forEach((el, index) => {
       document.querySelector('.modal.rigth').classList.add('show');
       score++;
     } else {
+      document.querySelector('.modal-score').textContent = score;
       document.querySelector('.modal.bad').classList.add('show')
       score = 0;
     }
