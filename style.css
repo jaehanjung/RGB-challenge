@@ -1,0 +1,38 @@
+.rgb-main{
+  text-align: center;
+}
+.rgb-main p{
+  display: block;
+}
+.score{
+  text-align: center;
+}
+.color-code{
+  text-align: center;
+}
+.box-more{
+  text-align: center;
+}
+.box{
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: 1px solid #181818;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: transform 1s;
+}
+.box.large {
+  transform: scale(50);
+}
+.modal{
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+.modal.show{
+  display: block;
+}
